@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Featured.module.css";
 import Image from "next/image";
+import styles from './featured.module.css';
 
 const Featured = () => {
   return (
