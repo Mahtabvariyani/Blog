@@ -5,6 +5,7 @@ function CardList() {
   return (
     <div className={Styles.content}>
       <Pagination />
+      card
     </div>
   )
 }
