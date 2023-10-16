@@ -1,13 +1,20 @@
-import React from 'react'
-import Styles from "./CardList.module.css"
-import Pagination from '../Pagination/Pagination'
+import React from "react";
+import Styles from "./CardList.module.css";
+import Pagination from "../Pagination/Pagination";
+import Card from "../Card/Card";
 function CardList() {
   return (
     <div className={Styles.content}>
+      <Card />
+      <Card />
+      <Card />
+      <Card />     
+      <Card />
+
       <Pagination />
-      card
+
     </div>
-  )
+  );
 }
 
-export default CardList
+export default CardList;
