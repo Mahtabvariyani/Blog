@@ -23,7 +23,7 @@ function Navbar() {
         <Link href="/" className={styles.link}>
           Contact
         </Link>
-        <Link href="/" className={styles.link}>
+        <Link href="https://mahportfolio.vercel.app" className={styles.link}>
           About
         </Link>
         <AuthLinks />

@@ -1,8 +1,8 @@
 :root {
-    --bg: rgb(230, 231, 237);
-    --textColor: rgb(16, 15, 15);
-    --softBg: #f0f0f0;
-    --softTextColor: #626262;
+  --bg: rgb(70, 70, 70);
+  --textColor: rgb(252, 178, 255);
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
   }
   
   * {
@@ -22,15 +22,15 @@
   }
   
   .dark {
-    --bg: #0f172a;
-    --textColor: #ddd;
+    --bg: #000000;
+    --textColor: #9ffff9;
     --softBg: #1f273a;
     --softTextColor: #a6a6a6;
   }
   
   .light {
-    --bg: white;
-    --textColor: black;
+    --bg: rgb(70, 70, 70);
+    --textColor: rgb(252, 178, 255);
     --softBg: #f0f0f0;
     --softTextColor: #626262;
   }
