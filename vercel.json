@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": ".prisma/schema.prisma",
+        "use": "@prisma/vercel-builder",
+        "config": {
+          "prismaSchema": ".prisma/schema.prisma"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/categories",
+        "methods": ["GET", "POST"],
+        "dest": "/api/categories.js"
+      }
+
+    ]
+  }
+  
